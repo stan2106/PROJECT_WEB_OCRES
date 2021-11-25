@@ -1,7 +1,7 @@
  .topbar{
    width: 102%;
    height: 50px;
-   background-color: rgb(70, 97, 91);
+   background-color: rgb(51, 129, 58);
    position: sticky;
    top: 0;
    margin-top: -20px;
@@ -44,7 +44,7 @@
  }
      
 a:hover {
-      color: red; /* pour le passage de la souris*/
+      color: white; /* pour le passage de la souris*/
      }
      
  

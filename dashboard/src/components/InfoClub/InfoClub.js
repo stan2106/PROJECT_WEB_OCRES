@@ -43,10 +43,10 @@ export default function InfoClub() {
 
             <div className="containerWidget">
                 <div className="widget2">
-                    <h4 className="titre">Classement actuel</h4>
+                    <h4 className="titre">Composition d'équipe</h4>
                                 
-                    <div className="logo">
-                    <img src="classement.png" width="450px" height="300px"></img>
+                    <div className="logoterrain">
+                    <img src="terrain.jpeg" width="650px" height="350px"></img>
                     </div>
 
                 </div>
