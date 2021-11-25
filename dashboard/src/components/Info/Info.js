@@ -7,7 +7,7 @@ export default function Info() {
             <div className="containerWidget">
                 <div className="widget1">
                     <div className="img">
-                        <img src="paqueta.jpeg" width="200px" height="200px"></img>
+                        <img src="OL/paqueta.png" width="200px" height="200px"></img>
                     </div>
                     <div className="infoPlayer">
                         <h3>Lucas Paqueta</h3>
@@ -23,10 +23,10 @@ export default function Info() {
 
             <div className="containerWidget">
                 <div className="widget2">
-                    <h4 className="titre">Equipe Actuelle</h4>
+                    <h4 className="titre">Équipe actuelle</h4>
                     
                     <div className="logo">
-                        <img src="ol.png" width="150px" height="150px"></img>
+                        <img src="OL/ol.png" width="150px" height="150px"></img>
 
                     </div>
 
@@ -35,7 +35,7 @@ export default function Info() {
 
             <div className="containerWidget">
                 <div className="widget2">
-                    <h4 className="titre">Séléction Actuelle</h4>
+                    <h4 className="titre">Séléction nationale</h4>
                     
                     <div className="logo">
                         <img src="brésil.png" width="250px" height="150px"></img>

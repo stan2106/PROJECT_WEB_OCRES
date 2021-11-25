@@ -1,7 +1,7 @@
 .sidebar
 {
-    flex: 1;
-    position: sticky;
+    width: 20%;
+    height: 750px;
     top: 50px;
     background-color:#ECF0F1;
     margin-left: -7px;
@@ -75,6 +75,13 @@ text-align: center;
 list-style-type:none;
 cursor: pointer;
 
+
+}
+
+
+.Categories
+{
+    text-decoration: underline;
 }
 
 

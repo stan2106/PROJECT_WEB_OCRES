@@ -4,6 +4,7 @@ import "./App.css"
 import Home from "./pages/Home/Home"; 
 import Clubs from "./components/Clubs/Clubs";
 import {BrowserRouter, Routes, Route , } from 'react-router-dom';
+import Accueil from "./components/Accueil/Accueil";
 
 
 function App() {
@@ -15,9 +16,11 @@ function App() {
       <div className="container">
         <Sidebar />
         <Routes>
-        <Route exact path='/clubs' element={<Clubs/>} />
-        <Route exact path='/' element={<Home/>} />
         
+        <Route exact path='/clubs' element={<Clubs/>} />
+        <Route exact path='/Player' element={<Home/>}/>
+        
+        <Route exact path='/' element={<Accueil/>} /> 
 
 
         </Routes>

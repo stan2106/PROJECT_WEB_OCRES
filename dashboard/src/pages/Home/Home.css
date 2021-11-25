@@ -1,6 +1,7 @@
 .home
 {
-    flex: 4;
+    background-color: rgb(101, 139, 131);
+    width: 102%;
 }
 .WidgetsDessous
 {
@@ -15,3 +16,5 @@
 {
     flex: 1;
 }
+
+
