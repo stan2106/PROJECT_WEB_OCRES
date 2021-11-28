@@ -1,0 +1,13 @@
+.WidgetsDessousLeft
+{
+    width: 235px;
+    height: 200px;
+    margin: 10px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 1px -1px #000000; 
+    box-shadow: 0px 0px 11px -1px #ffffff;
+    
+}
+

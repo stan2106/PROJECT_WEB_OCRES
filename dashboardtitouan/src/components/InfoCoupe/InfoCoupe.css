@@ -1,0 +1,15 @@
+.general{
+    background-image: url("https://imagizer.imageshack.com/img922/8140/AGMWpo.jpg");
+    background-size: cover; 
+}
+
+
+.info
+{
+    display: flex;
+    justify-content: space-between;   
+    width: 100%; 
+    height: 250px;
+    
+}
+
