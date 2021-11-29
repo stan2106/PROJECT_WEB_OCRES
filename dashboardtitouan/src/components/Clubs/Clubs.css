@@ -3,5 +3,8 @@
     background-image: url("https://imagizer.imageshack.com/img922/8140/AGMWpo.jpg");
     background-size: cover; 
     border-right: solid 2px black;
+    flex:4;
+    margin-right: -8px;
+
 
 }

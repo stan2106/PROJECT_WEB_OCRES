@@ -1,11 +1,15 @@
 .fond
 {
-    width: 100%;
     background-image: url("https://imagizer.imageshack.com/img922/8140/AGMWpo.jpg");
     color: rgb(228, 224, 224);
     background-size: cover;
     text-align: center;
     border-right: solid 2px black;
+    flex: 4;
+    margin-right: -8px;
+
+
+
 
 
 

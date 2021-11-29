@@ -20,6 +20,9 @@ export default function Chart( {data,title,dataKey}) {
                     
                 </LineChart>
              </ResponsiveContainer>
+
+             <br></br>
+
             
         </div>
     );

@@ -6,6 +6,8 @@ import Clubs from "./components/Clubs/Clubs";
 import {BrowserRouter, Routes, Route , } from 'react-router-dom';
 import Accueil from "./components/Accueil/Accueil";
 import Coupe from "./components/Coupe/Coupe";
+import React from "react";
+
 
 
 
@@ -13,6 +15,7 @@ function App() {
   return (
   
     <BrowserRouter>
+    
       <Topbar />
       
       <div className="container">

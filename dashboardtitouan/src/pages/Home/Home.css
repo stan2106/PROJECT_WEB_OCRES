@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&display=swap');
 .home
 {
+    font-family: 'Cabin', sans-serif;
     background-image: url("https://imagizer.imageshack.com/img922/8140/AGMWpo.jpg");
     background-size: cover;    
-    border-right: solid 2px black;
+    flex: 4;
+    margin-right: -8px;
 
 }

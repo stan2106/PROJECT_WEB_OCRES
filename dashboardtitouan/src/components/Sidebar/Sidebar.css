@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&display=swap');
+
 .sidebar
 {
-    flex: 1;
+    font-family: 'Cabin', sans-serif;
     top: 50px;
     margin-left: -10px;
+    flex: 1;
     background-image: url("https://imagizer.imageshack.com/img924/858/DOB2xg.jpg");
     background-size: cover;
     border-right: 2px solid rgb(0, 0, 0);
-
-
 
 }
 
@@ -50,6 +51,7 @@
     color: rgb(228, 224, 224);
     text-align: center;
     border-bottom: 3px solid rgb(228, 224, 224);
+    position: center;
 }
 .sidebarList
 {
