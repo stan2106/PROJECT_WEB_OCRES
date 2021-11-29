@@ -6,7 +6,7 @@ export default function Accueil() {
     return (
         <div className = "fond">
             <div className="welcome">
-                    Welcome to FootballStats
+                    Bienvenue sur FootballStats
             </div>
             <div className="soustitre">
                 <br></br>
