@@ -10,6 +10,8 @@ export default function Accueil() {
             </div>
             <div className="soustitre">
                 <br></br>
+                <br></br>
+
                 <img src ="ldc2.png" className="ldc2" width="40px" height="40px"></img>
                 &emsp;L'essentiel des statistiques concernant les meilleurs joueurs du monde et les meilleures équipes européennes.&emsp;
                 <img src ="ldc2.png" className="ldc2" width="40px" height="40px"></img>

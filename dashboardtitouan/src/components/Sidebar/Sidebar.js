@@ -7,7 +7,10 @@ export default function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebarWrapper">
-                    <h2 className="sidebarTitle"> MENU</h2>
+                <div className="sidebarTitle">
+                    <a href="/" className="menu"> MENU</a>
+                </div>
+                
                     <ul className="sidebarList">
 
                         <li className="sidebarListItems1">
@@ -64,23 +67,23 @@ export default function Sidebar() {
                             <ul className="sousliste">
 
                                 <li className="Categories">Gardien :</li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Anthony Lopes</a></li> 
+                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li> 
 
                                 <li className="Categories">Défenseurs :</li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Léo Dubois</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Jérome Boateng</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Jason Denayer</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Emerson</a></li>
+                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
+                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
+                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
+                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
 
                                 <li className="Categories">Milieux de terrain :</li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Houssem Aouar</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Maxence Caqueret</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Bruno Guimaraes</a></li>
+                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
+                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
+                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
 
                                 <li className="Categories">Attaquants :</li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Lucas Paqueta </a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Karl Toko Ekambi</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Moussa Dembele</a></li>
+                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX </a></li>
+                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
+                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Mohamed Salah</a></li>
 
 
 

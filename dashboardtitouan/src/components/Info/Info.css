@@ -29,7 +29,7 @@
 {
 
     flex: 1;
-    margin-top: -20px;
+    margin-top: 0%;
 
 }
 
@@ -42,7 +42,7 @@
 
 .profil{
     margin-left: -20px;
-    margin-top: 20px;
+    margin-top: 12%;
     height: 180px;
     width: 200px;
     border-right: solid 2px rgb(228, 224, 224);
@@ -51,8 +51,7 @@
 .ecusson
 {
     text-align: center;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 12%;
 }
 .ol
 {

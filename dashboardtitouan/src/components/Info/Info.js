@@ -29,7 +29,7 @@ export default function Info({data,dataKey}) {
 
                 <div className="charts">
 
-                    <RadarChart height={260} width={260} outerRadius="80%" data={data}>
+                    <RadarChart height={270} width={270} outerRadius="80%" data={data}>
                     <PolarGrid />
                     <PolarAngleAxis dataKey="name" />
                     <PolarRadiusAxis/>
@@ -45,6 +45,7 @@ export default function Info({data,dataKey}) {
             <div className="containerWidget2">
                 <div className="widget2">
                     <div className="titrewidget">Statistiques (saison en cours)</div>                    
+                        <br></br>
                         <br></br>
                         Matches joués : 18
                         <br></br>

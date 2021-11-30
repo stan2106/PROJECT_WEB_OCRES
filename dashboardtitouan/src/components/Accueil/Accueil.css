@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&display=swap');
+
 .fond
 {
     background-image: url("https://imagizer.imageshack.com/img922/8140/AGMWpo.jpg");
@@ -7,6 +9,8 @@
     border-right: solid 2px black;
     flex: 4;
     margin-right: -8px;
+    font-family: 'Cabin', sans-serif;
+
 
 
 
@@ -16,8 +20,9 @@
 }
 
 .welcome{
+    
     font-size: 40px;
-    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    font-family: 'Cabin', sans-serif;
     text-align: center;
     margin-top: 20px;
 }

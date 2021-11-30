@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&display=swap');
+
 .info
 {
     display: flex;
     justify-content: space-between;   
+    font-family: 'Cabin', sans-serif;
+
 
 }
 
@@ -28,14 +32,13 @@
 {
     text-align:left;
     margin-top: 20px;
-    margin-left: -25px;
     border-right: solid 3px rgb(228, 224, 224);
     width: 160px;
 }
 
 .maillots{
     margin-top: -155px;
-    margin-left: 140px;
+    margin-left: 40%;
     width: 300px;
 }
 
@@ -46,8 +49,8 @@
 
 .ldc{
     vertical-align:middle;
-    margin-left: -25px;
-    margin-top: 50px;
+    margin-top: 8%;
+    margin-left: 2%;
 }
 
 .widget6{

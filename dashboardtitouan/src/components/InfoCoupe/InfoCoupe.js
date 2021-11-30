@@ -11,7 +11,7 @@ export default function InfoCoupe() {
                     <h2 className="titre">Ligue des champions</h2>         
                     <div className="logocoupe">
                         <img src="coupeldc.png" alt="" width="150px" height="150px"></img>
-                        &emsp;&emsp;
+                        &emsp;&emsp;&emsp;
                         <img src="ldc1.png" alt="" width="150px" height="150px"></img>
                     </div>
                 </div>

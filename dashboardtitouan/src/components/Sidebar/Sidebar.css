@@ -47,12 +47,17 @@
 {
     width: 210px;
     height: 40px;
-    font-size: 18px;
-    color: rgb(228, 224, 224);
     text-align: center;
     border-bottom: 3px solid rgb(228, 224, 224);
     position: center;
+    margin-left: 6%;
 }
+
+.menu{
+    font-size: 18px;
+    color: rgb(228, 224, 224);
+}
+
 .sidebarList
 {
     list-style: none;

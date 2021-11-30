@@ -26,9 +26,9 @@ export default function InfoClub() {
                         <div className="widget2">
                             <h2 className="titre">Palmarès européen</h2>
                             <div className="ldc">
-                                <a className="navlinkk" href="/coupe"><img src="coupeldc.png" width="110px" height="110px"></img>X6</a>
-                                <a className="navlinkk" href="/coupe"><img src="coupedescoupes.png" width="110px" height="110px"></img>X0</a>
-                                <a className="navlinkk" href="/coupe"><img src="coupeuefa.png" width="110px" height="110px"></img>X3</a>
+                                <a className="navlinkk" href="/coupe"><img src="coupeldc.png" width="130px" height="130px"></img>X6</a>
+                                <a className="navlinkk" href="/coupe"><img src="coupedescoupes.png" width="130px" height="130px"></img>X0</a>
+                                <a className="navlinkk" href="/coupe"><img src="coupeuefa.png" width="130px" height="130px"></img>X3</a>
                             </div>
                         </div>
                 </div>
