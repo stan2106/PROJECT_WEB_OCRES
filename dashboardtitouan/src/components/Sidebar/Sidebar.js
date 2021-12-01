@@ -29,24 +29,24 @@ export default function Sidebar() {
 
                             <ul className="sousliste">
                                 <li className="Categories">Allemagne :</li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/clubs">Bayern Munich</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/clubs">Borussia Dortmund</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Bayern Munich</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Borussia Dortmund</a></li>
                                 <li className="Categories">Angleterre :</li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/clubs">Chelsea</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/clubs">Liverpool</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/clubs">Manchester City</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/clubs">Manchester United</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Chelsea</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Liverpool</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Manchester City</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Manchester United</a></li>
                                 <li className="Categories">Espagne :</li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/clubs">Athlético Madrid</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/clubs">FC Barcelone</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/clubs">Real Madrid</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Athlético Madrid</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">FC Barcelone</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Real Madrid</a></li>
                                 <li className="Categories">France :</li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/clubs">Olympique Lyonnais</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/clubs">Paris Saint-Germain</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Olympique Lyonnais</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Paris Saint-Germain</a></li>
                                 <li className="Categories">Italie :</li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/clubs">A.C. Milan</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/clubs">Inter Milan</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/clubs">Juventus</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">A.C. Milan</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Inter Milan</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Juventus</a></li>
 
 
 

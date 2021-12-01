@@ -33,33 +33,45 @@ export default function InfoCoupe() {
         <div className="widget8">
             <h2 className="titre">Équipes les plus titrées<br></br></h2>
             <div className="ligne1">
-                <img src="Clubs/real.png" alt="" width="140px" height="140px"></img>
+                <img src="ekip/real.png" alt="" width="140px" height="140px"></img>
                 &emsp;&emsp;
-                <img src="Clubs/milan.png" alt="" width="140px" height="140px"></img>
+                <img src="ekip/milan.png" alt="" width="140px" height="140px"></img>
                 &emsp;&emsp;
-                <img src="Clubs/liverpool.png" alt="" width="140px" height="140px"></img>
+                <img src="ekip/liverpool.png" alt="" width="140px" height="140px"></img>
                 &emsp;&emsp;&emsp;
-                <img src="Clubs/bayern.png" alt="" width="140px" height="140px"></img>
+                <img src="ekip/bayern.png" alt="" width="140px" height="140px"></img>
                 &emsp;&emsp;&emsp;&emsp;
-                <img src="Clubs/barcelone.png" alt="" width="140px" height="140px"></img>
+                <img src="ekip/barcelone.png" alt="" width="140px" height="140px"></img>
+                <br></br>
+                <br></br>
+
             </div>
             
-            <br></br>
+            <div className="ligne15">
+                13 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                7 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                6 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+                6 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                5
+            </div>
+
             <br></br>
             <br></br>
             
             <div className="ligne2">
                 <h2>Tenant du titre<br></br></h2>
-                <img src="Clubs/chelsea.png" alt="" width="140px" height="140px"></img>
+                <img src="ekip/chelsea.png" alt="" width="140px" height="140px"></img>
             </div>
             
             <div className="ligne3">
                 <h2>Meilleur buteur<br></br></h2>
                 <img src="cr7.png" alt="" width="140px" height="140px"></img>
+                141 BUTS
             </div>
             
         </div>
 
+        <br></br>
 
     </div>
 )
