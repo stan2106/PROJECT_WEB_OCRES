@@ -3,7 +3,9 @@ import "./Sidebar.css"
 
 
 
+
 export default function Sidebar() {
+    
     return (
         <div className="sidebar">
             <div className="sidebarWrapper">
@@ -70,8 +72,8 @@ export default function Sidebar() {
                                 <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li> 
 
                                 <li className="Categories">Défenseurs :</li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
+                                <button><li className="ItemsSousListe"><a className="nav-link" href="/Player">Andrew Roberston</a></li></button>
+                                <li className="ItemsSousListe"><a className="nav-link" href="/Player/">XXX</a></li>
                                 <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
                                 <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
 
@@ -83,7 +85,7 @@ export default function Sidebar() {
                                 <li className="Categories">Attaquants :</li>
                                 <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX </a></li>
                                 <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Mohamed Salah</a></li>
+                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Mohamed Salah</a></li> 
 
 
 
