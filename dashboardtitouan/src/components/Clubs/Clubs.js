@@ -7,7 +7,7 @@ const Clubs = () => {
     return (
         <div className="clubs">
 
-            <InfoClub />
+            <InfoClub id={64}/>
 
         </div>
     )

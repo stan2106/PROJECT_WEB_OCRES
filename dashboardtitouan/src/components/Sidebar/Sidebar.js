@@ -1,7 +1,54 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Sidebar.css"
 
-
+const player = [
+    
+    {
+        name: "Karius",
+        id: "7856"
+    },
+    {
+        name: "Andrew Roberston",
+        id: "7868"
+    },
+    {
+        name: "Dejan Lovren",
+        id: "7859"
+    },
+    {
+        name: "Virgil van Dijk",
+        id: "7869"
+    },
+    {
+        name: "Trent Alexander-Arnold",
+        id: "7867"
+    },
+    {
+        name: "James Milner",
+        id: "7861"
+    },
+    {
+        name: "Georginho Wijnaldum",
+        id: "7871"
+    },
+    {
+        name: "Jordan Henderson",
+        id: "3320"
+    },
+    {
+        name: "Sadio Mané",
+        id: "3626"
+    },
+    {
+        name: "Roberto Fimino",
+        id: "3233"
+    },
+    {
+        name: "Mohamed Salah",
+        id: "3754"
+    },
+]
 
 
 export default function Sidebar() {
@@ -69,23 +116,24 @@ export default function Sidebar() {
                             <ul className="sousliste">
 
                                 <li className="Categories">Gardien :</li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li> 
+                               
+                                <li className="ItemsSousListe"><Link to={`/Player/${player[0].id}`} className="nav-link" activeClassName="active">{player[0].name}</Link></li>
 
                                 <li className="Categories">Défenseurs :</li>
-                                <button><li className="ItemsSousListe"><a className="nav-link" href="/Player">Andrew Roberston</a></li></button>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player/">XXX</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
+                                <li className="ItemsSousListe"><Link to={`/Player/${player[1].id}`} className="nav-link" activeClassName="active">{player[1].name}</Link></li>
+                                <li className="ItemsSousListe"><Link to={`/Player/${player[2].id}`} className="nav-link" activeClassName="active">{player[2].name}</Link></li>
+                                <li className="ItemsSousListe"><Link to={`/Player/${player[3].id}`} className="nav-link" activeClassName="active">{player[3].name}</Link></li>
+                                <li className="ItemsSousListe"><Link to={`/Player/${player[4].id}`} className="nav-link" activeClassName="active">{player[4].name}</Link></li>
 
                                 <li className="Categories">Milieux de terrain :</li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
+                                <li className="ItemsSousListe"><Link to={`/Player/${player[5].id}`} className="nav-link" activeClassName="active">{player[5].name}</Link></li>
+                                <li className="ItemsSousListe"><Link to={`/Player/${player[6].id}`} className="nav-link" activeClassName="active">{player[6].name}</Link></li>
+                                <li className="ItemsSousListe"><Link to={`/Player/${player[7].id}`} className="nav-link" activeClassName="active">{player[7].name}</Link></li>
 
                                 <li className="Categories">Attaquants :</li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX </a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">XXX</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/Player">Mohamed Salah</a></li> 
+                                <li className="ItemsSousListe"><Link to={`/Player/${player[8].id}`} className="nav-link" activeClassName="active">{player[8].name}</Link></li>
+                                <li className="ItemsSousListe"><Link to={`/Player/${player[9].id}`} className="nav-link" activeClassName="active">{player[9].name}</Link></li>
+                                <li className="ItemsSousListe"><Link to={`/Player/${player[10].id}`} className="nav-link" activeClassName="active">{player[10].name}</Link></li>
 
 
 

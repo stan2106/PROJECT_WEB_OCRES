@@ -8,15 +8,13 @@ export default class CallApi extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = { 
-			
+
 			playerName: "",
 			playerNationality: "",
 			position: "",
 			dateOfBirth:"",
 		};
 	}
-
-
 
 	callAPI() {
 		var myHeaders = new Headers();
@@ -28,6 +26,9 @@ export default class CallApi extends React.Component {
 			mode: "cors",
 			cache: "default"
 		};
+		
+
+
 
 		fetch("https://api.football-data.org//v2/players/" + this.props.id, obj)
 			.then(res => res.json())
@@ -50,7 +51,7 @@ export default class CallApi extends React.Component {
 					<div className="titrewidget">{this.state.playerName}</div>
 						<div className="widget1">
 							<div className="profil">
-								<img src="Liverpool/salah.png" width="180px" height="180px"></img>
+								<img src="../Liverpool/salah.png" width="180px" height="180px"></img>
 							</div>
 							<div className="ecusson">
 							{this.state.position}
@@ -63,7 +64,7 @@ export default class CallApi extends React.Component {
 								{this.state.playerNationality }
 								<br></br>
 								<br></br>
-								<img src="Liverpool/logo.png" width="60px" height="60px"></img>
+								<img src="../Liverpool/logo.png" width="60px" height="60px"></img>
 							</div>
 						</div>
 					</div>
