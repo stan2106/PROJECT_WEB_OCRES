@@ -1,0 +1,100 @@
+.sidebar
+{
+    flex: 1;
+    top: 50px;
+    margin-left: -10px;
+    background-image: url("https://imagizer.imageshack.com/img924/858/DOB2xg.jpg");
+    background-size: cover;
+    border-right: 2px solid rgb(0, 0, 0);
+
+
+
+}
+
+.sidebarListItems1
+{
+    display: flex;
+    flex-direction: column;
+    color: rgb(228, 224, 224);
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.items1
+{
+    display: flex;
+    padding: 10px;
+    
+}
+
+.titreItems
+{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.sidebarWrapper
+{
+    padding: 20px ;
+    
+}
+
+.sidebarTitle
+{
+    width: 210px;
+    height: 40px;
+    font-size: 18px;
+    color: rgb(228, 224, 224);
+    text-align: center;
+    border-bottom: 3px solid rgb(228, 224, 224);
+}
+.sidebarList
+{
+    list-style: none;
+    padding: 10px;
+    
+    
+}
+
+
+.logoContainer
+{
+    padding-right: 10px;
+}
+
+
+
+.sousliste
+{
+    display: none;
+  
+    
+}
+
+.ItemsSousListe
+{
+list-style-type:none;
+cursor: pointer;
+
+
+}
+
+
+.Categories
+{
+    text-decoration: underline;
+}
+
+
+
+.sidebarListItems1:hover > ul{
+    display: block;
+    
+}
+
+.nav-link{
+    color: rgb(228, 224, 224);
+}
