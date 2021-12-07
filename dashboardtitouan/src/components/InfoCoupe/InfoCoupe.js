@@ -2,6 +2,8 @@ import "./InfoCoupe.css"
 
 
 
+
+
 export default function InfoCoupe() {
     return (
     <div className="general">

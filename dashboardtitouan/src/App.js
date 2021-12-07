@@ -11,16 +11,16 @@ import "./components/Sidebar/Sidebar.css"
 
 const player = [
   {
-      name: "Karius",
-      id: "7856"
+      name: "Alisson",
+      id: "1795"
   },
   {
       name: "Andrew Roberston",
       id: "7868"
   },
   {
-      name: "Dejan Lovren",
-      id: "7859"
+      name: "Joe Gomez",
+      id: "7862"
   },
   {
       name: "Virgil van Dijk",
@@ -31,12 +31,12 @@ const player = [
       id: "7867"
   },
   {
-      name: "James Milner",
-      id: "7861"
+      name: "Thiago Alcantara",
+      id: "356"
   },
   {
-      name: "Georginho Wijnaldum",
-      id: "7871"
+      name: "Fabinho",
+      id: "8749"
   },
   {
       name: "Jordan Henderson",
@@ -169,22 +169,7 @@ function App() {
                             </ul>
                         </li>
 
-                        <li className="sidebarListItems1">
-                            <div className="items1">
-                            
-                                <span className="logoContainer">
-                                    <img src="../calendar.png" height="40px" width="40px"></img>
-                                </span>
-                                <p className="titreItems"> Events 
-                                   <span>&#9660;</span>
-                                </p>
-                            </div>
-                            <ul className="sousliste">
-                                <li className="ItemsSousListe">lorem</li>
-                                <li className="ItemsSousListe">lorem</li>
-                                <li className="ItemsSousListe">lorem</li>
-                            </ul>
-                        </li>
+                        
 
 
                     </ul>

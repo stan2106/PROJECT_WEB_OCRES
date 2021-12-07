@@ -164,7 +164,23 @@
 {
     display: flex;
     justify-content:space-evenly;
-    
-    
    
 }
+
+.InfoTeamBoss
+{
+    display: flex;
+    
+}
+
+
+.InfosTeam{
+    margin-left: 10%;
+}
+
+.position
+{
+    text-align: center;
+}
+
+

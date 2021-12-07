@@ -16,7 +16,6 @@ export default class CallApiClub extends React.Component {
             WebSite:"",
             Phone:"",
             email:"",
-            
             Player1 : "",
             Player2 : "",
             Player3 : "",
@@ -28,6 +27,20 @@ export default class CallApiClub extends React.Component {
             Player9 : "",
             Player10 : "",
             Player11 : "",
+
+
+            info:"",
+            NbdeMatches:"",
+            Victoire:"",
+            Nul:"",
+            Défaite:"",
+            Points:"",
+            ButsPour:"",
+            ButsContre:"",
+            Diff:"",
+            Position:"",
+            
+            
            
 
 		};
@@ -43,6 +56,8 @@ export default class CallApiClub extends React.Component {
 			mode: "cors",
 			cache: "default"
 		};
+    
+   
 
 		fetch("https://api.football-data.org//v2/teams/" + this.props.id, obj)
 			.then(res => res.json())
@@ -70,9 +85,49 @@ export default class CallApiClub extends React.Component {
 		}));
 	}
 
+    CallApiClubStats() {
+		var myHeaders = new Headers();
+		myHeaders.append("X-Auth-Token","f9475c7dc1df466b965ffe2a72d2f4a7");
+
+		var obj = {
+			method: "GET",
+			headers: myHeaders,
+			mode: "cors",
+			cache: "default"
+		};
+    
+   
+
+		fetch("http://api.football-data.org/v2/competitions/2021/standings",obj)
+			.then(res => res.json())
+			.then(res => this.setState({ 
+
+                info: res.competition.name,
+                NbdeMatches: res.standings[0].table[1].playedGames,
+
+
+                Victoire:res.standings[0].table[1].won,
+                Nul:res.standings[0].table[1].draw,
+                Défaite:res.standings[0].table[1].lost,
+                Points:res.standings[0].table[1].points,
+                ButsPour:res.standings[0].table[1].goalsFor,
+                ButsContre:res.standings[0].table[1].goalsAgainst,
+                Diff:res.standings[0].table[1].goalDifference,
+                Position:res.standings[0].table[1].position,
+                
+
+				
+                
+		}));
+	}
+
+
 	componentWillMount() {
 		this.CallApiClub();
+        this.CallApiClubStats();
 	}
+
+
 
     render(){
     return (
@@ -101,11 +156,38 @@ export default class CallApiClub extends React.Component {
 
                 <div className="containerWidget">
                         <div className="widget2">
-                            <h2 className="titre">Palmarès européen</h2>
+                            <h2 className="titre"> {this.state.TeamName} in {this.state.info}</h2>
+                            <br></br>
+
+                            <div className="InfoTeamBoss">
+
+                                <div className="InfosTeam">
+
+                                    Number of games played : {this.state.NbdeMatches}<br></br> <br></br>
+                                    Number of games won : {this.state.Victoire}<br></br> <br></br>
+                                    Number of draw games  : {this.state.Nul}<br></br> <br></br>
+                                    Number of games loose  : {this.state.Défaite}<br></br> <br></br>
+                                </div> 
+
+                                <div className="InfosTeam">
+
+                                    Points : {this.state.Points}<br></br> <br></br>
+                                    GoalsFor : {this.state.ButsPour}<br></br> <br></br>
+                                    GoalsAgainst : {this.state.ButsContre}<br></br> <br></br>
+                                    GoalDifference  : {this.state.Diff}
+
+                                </div>
+
+                            </div>
+
+                            <div className="position"> Position In PL  : {this.state.Position}nd</div>
+                                
+                                
+                                
+
+                            
                             <div className="ldc">
-                                <a className="navlinkk" href="/coupe"><img src="coupeldc.png" width="130px" height="130px"></img>X6</a>
-                                <a className="navlinkk" href="/coupe"><img src="coupedescoupes.png" width="130px" height="130px"></img>X0</a>
-                                <a className="navlinkk" href="/coupe"><img src="coupeuefa.png" width="130px" height="130px"></img>X3</a>
+                                
                             </div>
                         </div>
                 </div>
@@ -147,40 +229,40 @@ export default class CallApiClub extends React.Component {
 
                         <h2 className="titre">Composition d'équipe <br></br></h2>
                         <div className="G">
-                            <a className="navlinkk" href="/Player"> <img src="Liverpool/allison.png" width="60px" height="60px"></img><br></br>{this.state.Player1}</a>
+                            <a className="navlinkk" href="/Player/1795"> <img src="Liverpool/allison.png" width="60px" height="60px"></img><br></br>{this.state.Player1}</a>
                         </div>
 
                         <div className="DG">
-                            <a className="navlinkk" href="/Player"> <img src="Liverpool/robertson.png" width="60px" height="60px"></img><br></br>{this.state.Player2}</a>
+                            <a className="navlinkk" href="/Player/7868"> <img src="Liverpool/robertson.png" width="60px" height="60px"></img><br></br>{this.state.Player2}</a>
                         </div>   
                         <div className="DC1">
-                            <a className="navlinkk" href="/Player"> <img src="Liverpool/gomez.png" width="60px" height="60px"></img><br></br>{this.state.Player3}</a>
+                            <a className="navlinkk" href="/Player/7862"> <img src="Liverpool/gomez.png" width="60px" height="60px"></img><br></br>{this.state.Player3}</a>
                         </div>    
                         <div className="DC2">
-                            <a className="navlinkk" href="/Player"> <img src="Liverpool/vandjik.png" width="60px" height="60px"></img><br></br>{this.state.Player4}</a>
+                            <a className="navlinkk" href="/Player/7869"> <img src="Liverpool/vandjik.png" width="60px" height="60px"></img><br></br>{this.state.Player4}</a>
                         </div>   
                         <div className="DD">
-                            <a className="navlinkk" href="/Player"> <img src="Liverpool/arnold.png" width="60px" height="60px"></img><br></br>{this.state.Player5}</a>                    
+                            <a className="navlinkk" href="/Player/7867"> <img src="Liverpool/arnold.png" width="60px" height="60px"></img><br></br>{this.state.Player5}</a>                    
                         </div>   
 
                         <div className="MG">
-                            <a className="navlinkk" href="/Player"> <img src="Liverpool/thiago.png" width="60px" height="60px"></img><br></br>{this.state.Player6}</a>
+                            <a className="navlinkk" href="/Player/356"> <img src="Liverpool/thiago.png" width="60px" height="60px"></img><br></br>{this.state.Player6}</a>
                         </div>   
                         <div className="MC">
-                            <a className="navlinkk" href="/Player"> <img src="Liverpool/fabinho.png" width="60px" height="60px"></img><br></br>{this.state.Player7}</a>
+                            <a className="navlinkk" href="/Player/8749"> <img src="Liverpool/fabinho.png" width="60px" height="60px"></img><br></br>{this.state.Player7}</a>
                         </div>   
                         <div className="MD">
-                            <a className="navlinkk" href="/Player"> <img src="Liverpool/henderson.png" width="60px" height="60px"></img><br></br>{this.state.Player8}</a>
+                            <a className="navlinkk" href="/Player/3320"> <img src="Liverpool/henderson.png" width="60px" height="60px"></img><br></br>{this.state.Player8}</a>
                         </div>   
 
                         <div className="AG">
-                            <a className="navlinkk" href="/Player"> <img src="Liverpool/mane.png" width="60px" height="60px"></img><br></br>{this.state.Player9}</a>
+                            <a className="navlinkk" href="/Player/3626"> <img src="Liverpool/mane.png" width="60px" height="60px"></img><br></br>{this.state.Player9}</a>
                         </div>   
                         <div className="BU">
-                            <a className="navlinkk" href="/Player"> <img src="Liverpool/firmino.png" width="60px" height="60px"></img><br></br>{this.state.Player10}</a>
+                            <a className="navlinkk" href="/Player/3233"> <img src="Liverpool/firmino.png" width="60px" height="60px"></img><br></br>{this.state.Player10}</a>
                         </div>   
                         <div className="AD">
-                            <a className="navlinkk" href="/Player"> <img src="Liverpool/salah.png" width="60px" height="60px"></img><br></br>{this.state.Player11}</a>
+                            <a className="navlinkk" href="/Player/3754"> <img src="Liverpool/salah.png" width="60px" height="60px"></img><br></br>{this.state.Player11}</a>
                         </div>  
 
                         <div className="coach">
