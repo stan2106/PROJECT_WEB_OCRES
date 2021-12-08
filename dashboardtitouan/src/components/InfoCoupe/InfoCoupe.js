@@ -1,48 +1,9 @@
 import "./InfoCoupe.css"
 
-import React from 'react';
-
-export default class CallApiClub extends React.Component {
-
-	constructor(props) {
-		super(props);
-		this.state = { 
-
-			TeamName: "",
-            
-
-		};
-	}
-
-	CallApiClub() {
-		var myHeaders = new Headers();
-		myHeaders.append("x-www-form-urlencoded"
-            ,"MWZsN240dTBxa2RoOHVtazh2OGVyZ3QxYTc6MTU2cDJpa2liY205c3UybXNpbXIzcW45M3JlZGRnbml0a29lZTQ1Y2ozMmw3NWl1dWhtdg");
-
-		var obj = {
-			method: "GET",
-			headers: myHeaders,
-			mode: "cors",
-			cache: "default"
-		};
-    
-   
-
-		console.log(fetch("https://football.elenasport.io/v2/players/:id", obj)
-			.then(res => res.json())
-			.then(res => this.setState({ 
-				
-                
-		})));
-	}
-
-    componentWillMount() {
-		this.CallApiClub();
-        
-	}
 
 
-render() {
+
+export default function InfoCoupe() {
     return (
     <div className="general">
 
@@ -117,7 +78,4 @@ render() {
 
     </div>
 )
-}
-
-
 }

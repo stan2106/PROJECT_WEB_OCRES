@@ -13,6 +13,7 @@ export default class CallApi extends React.Component {
 			playerNationality: "",
 			position: "",
 			dateOfBirth:"",
+			NbsGoals:"",
 		};
 	}
 
@@ -40,8 +41,29 @@ export default class CallApi extends React.Component {
 		}));
 	}
 
+	callAPIBut() {
+		var myHeaders = new Headers();
+		myHeaders.append("X-Auth-Token","f9475c7dc1df466b965ffe2a72d2f4a7");
+
+		var obj = {
+			method: "GET",
+			headers: myHeaders,
+			mode: "cors",
+			cache: "default"
+		};
+		
+
+		fetch("http://api.football-data.org/v2/competitions/SA/scorers", obj)
+			.then(res => res.json())
+			.then(res => this.setState({ 
+				
+				
+		}));
+	}
+
 	componentWillMount() {
 		this.callAPI();
+		this.callAPIBut();
 	}
 
 	render() {
@@ -81,13 +103,13 @@ export default class CallApi extends React.Component {
 				</div>
 				<div className="containerWidget2">
 					<div className="widget2">
-						<div className="titrewidget">Statistiques (saison en cours)</div>                    
+						<div className="titrewidget">Statistiques</div>                    
 							<br></br>
 							<br></br>
 							Matches joués : 18
 							<br></br>
 							<br></br>
-							Buts : 17
+							Buts : {this.state.NbsGoals} 
 							<br></br>
 							<br></br>
 							Passes décisives : 7
