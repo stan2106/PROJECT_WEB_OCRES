@@ -2,11 +2,49 @@ import React from 'react'
 import "./Accueil.css" 
 
 
-export default function Accueil() {
+export default class CallApi extends React.Component {
+
+	constructor(props) {
+		super(props);
+		this.state = { 
+
+            message:"",
+		};
+	}
+
+	callAPI(){
+
+
+		var obj = {
+			method: "GET",
+			mode: "cors",
+			cache: "default"
+		};
+		
+    
+        fetch("http://localhost:4000/messages", obj)
+		.then(res => res.json())
+		.then(res => this.setState({ 
+
+            message:res.message,
+		}));
+
+    }
+
+    componentDidMount() {
+        this.callAPI();
+    }
+
+            
+
+render() {
     return (
         <div className = "fond">
             <div className="welcome">
-                    Bienvenue sur FootballStats
+
+            {this.state.message}
+            
+		
             </div>
             <div className="soustitre">
                 <br></br>
@@ -21,11 +59,11 @@ export default function Accueil() {
                 <br></br>
                 <br></br>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/X3Zs-HZczUM?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/X3Zs-HZczUM?autoplay=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
             </iframe>
 
-            <div class="conteneur1">
-                <div class="d1"></div>
+            <div className="conteneur1">
+                <div className="d1"></div>
             </div>
 
 
@@ -34,4 +72,7 @@ export default function Accueil() {
 
 
     )
+}
+
+
 }

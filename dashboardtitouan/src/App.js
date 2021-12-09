@@ -185,25 +185,9 @@ function App() {
         
         <Route exact path='/' element={<Accueil/>} /> 
         <Route exact path='/coupe' element={<Coupe/>}/>
-
-
         </Routes>
-
-       
-
-      
-      <app />
-
-
       </div>
-      
-
-    </BrowserRouter> 
-
-  
-    
-
-
+    </BrowserRouter>
   );
 }
 

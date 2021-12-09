@@ -29,8 +29,6 @@ export default class CallApi extends React.Component {
 		};
 		
 
-
-
 		fetch("https://api.football-data.org//v2/players/" + this.props.id, obj)
 			.then(res => res.json())
 			.then(res => this.setState({ 
