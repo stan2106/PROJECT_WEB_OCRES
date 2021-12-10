@@ -65,6 +65,10 @@ const player = [
       name: "Mohamed Salah",
       id: "3754"
   },
+  {
+      name: "Cristiano Ronaldo",
+      id: "44"
+  }
 ]
 
 

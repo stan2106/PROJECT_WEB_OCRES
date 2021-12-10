@@ -36,15 +36,23 @@ export default function InfoCoupe() {
         <div className="widget8">
             <h2 className="titre">Équipes les plus titrées<br></br></h2>
             <div className="ligne1">
+                <a href="/Real">
                 <img src="ekip/real.png" alt="" width="140px" height="140px"></img>
+                </a>
                 &emsp;&emsp;
                 <img src="ekip/milan.png" alt="" width="140px" height="140px"></img>
                 &emsp;&emsp;
+                <a href="/Clubs">
                 <img src="ekip/liverpool.png" alt="" width="140px" height="140px"></img>
+                </a>
                 &emsp;&emsp;&emsp;
+                <a href="/Bayern">
                 <img src="ekip/bayern.png" alt="" width="140px" height="140px"></img>
+                </a>
                 &emsp;&emsp;&emsp;&emsp;
+                <a href="/Barca">
                 <img src="ekip/barcelone.png" alt="" width="140px" height="140px"></img>
+                </a>
                 <br></br>
                 <br></br>
 
@@ -63,7 +71,9 @@ export default function InfoCoupe() {
             
             <div className="ligne2">
                 <h2>Tenant du titre<br></br></h2>
+                <a href="/Chelsea">
                 <img src="ekip/chelsea.png" alt="" width="140px" height="140px"></img>
+                </a>
             </div>
             
             <div className="ligne3">

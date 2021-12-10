@@ -34,11 +34,15 @@ export default function InfoEuropa() {
             <div className="ligne1">
                 <img src="ekip/seville.png" alt="" width="140px" height="140px"></img>
                 &emsp;&emsp;
-                <img src="ekip/athletico.png" alt="" width="140px" height="140px"></img>
+                <a href="/Athletico">
+                    <img src="ekip/athletico.png"  alt="" width="140px" height="140px"></img>
+                </a>
                 &emsp;&emsp;
                 <img src="ekip/valence.png" alt="" width="140px" height="140px"></img>
                 &emsp;&emsp;&emsp;
-                <img src="ekip/liverpool.png" alt="" width="140px" height="140px"></img>
+                <a href="/Clubs">
+                    <img src="ekip/liverpool.png" alt="" width="140px" height="140px"></img>
+                </a>
                 &emsp;&emsp;&emsp;&emsp;
                 <img src="ekip/inter.png" alt="" width="140px" height="140px"></img>
                 <br></br>

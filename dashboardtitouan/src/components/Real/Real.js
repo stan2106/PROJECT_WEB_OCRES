@@ -19,8 +19,8 @@ export default function Real() {
                                     <div className="Fondation">1902</div>
                                 </div>
                                 <div className="maillots">
-                                    <img src="Liverpool/maillot1.png" width="150px" height="150px"></img>
-                                    <img src="Liverpool/maillot2.png" width="150px" height="150px"></img>
+                                    <img src="Maillots/RealDom.png" width="150px" height="150px"></img>
+                                    <img src="Maillots/RealExt.png" width="150px" height="150px"></img>
                                 </div>
 
                             </div>
@@ -36,19 +36,19 @@ export default function Real() {
 
                                 <div className="InfosTeam">
 
-                                    Nombre de matchs joués : <br></br> <br></br>
-                                    Nombre de matchs gagnés : <br></br> <br></br>
-                                    Nombres de matchs nuls : <br></br> <br></br>
-                                    Nombre de matchs perdus : <br></br> <br></br>
+                                    Nombre de matchs joués : 14<br></br> <br></br>
+                                    Nombre de matchs gagnés : 11<br></br> <br></br>
+                                    Nombres de matchs nuls : 1<br></br> <br></br>
+                                    Nombre de matchs perdus : 2 <br></br> <br></br>
 
                                 </div> 
 
                                 <div className="InfosTeam">
 
-                                    Points : <br></br> <br></br>
-                                    Buts pour : <br></br> <br></br>
-                                    Buts contre : <br></br> <br></br>
-                                    Différence : 
+                                    Points : 34 <br></br> <br></br>
+                                    Buts pour : 44 <br></br> <br></br>
+                                    Buts contre : 14 <br></br> <br></br>
+                                    Différence : 10
 
                                 </div>
 
@@ -103,40 +103,40 @@ export default function Real() {
 
                         <h2 className="titre">Composition d'équipe <br></br></h2>
                         <div className="G">
-                            <a className="navlinkk" href="/Player/1795"> <img src="man.png" width="60px" height="60px"></img><br></br>Courtois</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Courtois</a>
                         </div>
 
                         <div className="DG">
-                            <a className="navlinkk" href="/Player/7868"> <img src="man.png" width="60px" height="60px"></img><br></br>Mendy</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Mendy</a>
                         </div>   
                         <div className="DC1">
-                            <a className="navlinkk" href="/Player/7862"> <img src="man.png" width="60px" height="60px"></img><br></br>Alaba</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Alaba</a>
                         </div>    
                         <div className="DC2">
-                            <a className="navlinkk" href="/Player/7869"> <img src="man.png" width="60px" height="60px"></img><br></br>Militao</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Militao</a>
                         </div>   
                         <div className="DD">
-                            <a className="navlinkk" href="/Player/7867"> <img src="man.png" width="60px" height="60px"></img><br></br>Carvajal</a>                    
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Carvajal</a>                    
                         </div>   
 
                         <div className="MG">
-                            <a className="navlinkk" href="/Player/356"> <img src="man.png" width="60px" height="60px"></img><br></br>Modric</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Modric</a>
                         </div>   
                         <div className="MC">
-                            <a className="navlinkk" href="/Player/8749"> <img src="man.png" width="60px" height="60px"></img><br></br>Casemiro</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Casemiro</a>
                         </div>   
                         <div className="MD">
-                            <a className="navlinkk" href="/Player/3320"> <img src="man.png" width="60px" height="60px"></img><br></br>Kroos</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Kroos</a>
                         </div>   
 
                         <div className="AG">
-                            <a className="navlinkk" href="/Player/3626"> <img src="man.png" width="60px" height="60px"></img><br></br>Vinicius</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Vinicius</a>
                         </div>   
                         <div className="BU">
-                            <a className="navlinkk" href="/Player/3233"> <img src="man.png" width="60px" height="60px"></img><br></br>Benzema</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Benzema</a>
                         </div>   
                         <div className="AD">
-                            <a className="navlinkk" href="/Player/3754"> <img src="man.png" width="60px" height="60px"></img><br></br>Asensio</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Asensio</a>
                         </div>  
 
                         <div className="coach">

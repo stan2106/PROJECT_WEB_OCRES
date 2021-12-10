@@ -19,8 +19,8 @@ export default function Dortmund() {
                                     <div className="Fondation">1909</div>
                                 </div>
                                 <div className="maillots">
-                                    <img src="Liverpool/maillot1.png" width="150px" height="150px"></img>
-                                    <img src="Liverpool/maillot2.png" width="150px" height="150px"></img>
+                                    <img src="Maillots/DortmundDom.png"  width="150px" height="150px"></img>
+                                    <img src="Maillots/DortmundExt.png"  width="150px" height="150px"></img>
                                 </div>
 
                             </div>
@@ -36,19 +36,19 @@ export default function Dortmund() {
 
                                 <div className="InfosTeam">
 
-                                    Nombre de matchs joués : <br></br> <br></br>
-                                    Nombre de matchs gagnés : <br></br> <br></br>
-                                    Nombres de matchs nuls : <br></br> <br></br>
-                                    Nombre de matchs perdus : <br></br> <br></br>
+                                    Nombre de matchs joués : 12<br></br> <br></br>
+                                    Nombre de matchs gagnés : 8<br></br> <br></br>
+                                    Nombres de matchs nuls : 1<br></br> <br></br>
+                                    Nombre de matchs perdus : 3<br></br> <br></br>
 
                                 </div> 
 
                                 <div className="InfosTeam">
 
-                                    Points : <br></br> <br></br>
-                                    Buts pour : <br></br> <br></br>
-                                    Buts contre : <br></br> <br></br>
-                                    Différence : 
+                                    Points : 25 <br></br> <br></br>
+                                    Buts pour : 20 <br></br> <br></br>
+                                    Buts contre : 10 <br></br> <br></br>
+                                    Différence : 10
 
                                 </div>
 
@@ -103,40 +103,40 @@ export default function Dortmund() {
 
                         <h2 className="titre">Composition d'équipe <br></br></h2>
                         <div className="G">
-                            <a className="navlinkk" href="/Player/1795"> <img src="man.png" width="60px" height="60px"></img><br></br>Kobel</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Kobel</a>
                         </div>
 
                         <div className="DG">
-                            <a className="navlinkk" href="/Player/7868"> <img src="man.png" width="60px" height="60px"></img><br></br>Guerreiro</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Guerreiro</a>
                         </div>   
                         <div className="DC1">
-                            <a className="navlinkk" href="/Player/7862"> <img src="man.png" width="60px" height="60px"></img><br></br>Hummels</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Hummels</a>
                         </div>    
                         <div className="DC2">
-                            <a className="navlinkk" href="/Player/7869"> <img src="man.png" width="60px" height="60px"></img><br></br>Akanji</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Akanji</a>
                         </div>   
                         <div className="DD">
-                            <a className="navlinkk" href="/Player/7867"> <img src="man.png" width="60px" height="60px"></img><br></br>Meunier</a>                    
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Meunier</a>                    
                         </div>   
 
                         <div className="MG">
-                            <a className="navlinkk" href="/Player/356"> <img src="man.png" width="60px" height="60px"></img><br></br>Dahoud</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Dahoud</a>
                         </div>   
                         <div className="MC">
-                            <a className="navlinkk" href="/Player/8749"> <img src="man.png" width="60px" height="60px"></img><br></br>Witsel</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Witsel</a>
                         </div>   
                         <div className="MD">
-                            <a className="navlinkk" href="/Player/3320"> <img src="man.png" width="60px" height="60px"></img><br></br>Bellingham</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Bellingham</a>
                         </div>   
 
                         <div className="AG">
-                            <a className="navlinkk" href="/Player/3626"> <img src="man.png" width="60px" height="60px"></img><br></br>Reus</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Reus</a>
                         </div>   
                         <div className="BU">
-                            <a className="navlinkk" href="/Player/3233"> <img src="man.png" width="60px" height="60px"></img><br></br>Haaland</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Haaland</a>
                         </div>   
                         <div className="AD">
-                            <a className="navlinkk" href="/Player/3754"> <img src="man.png" width="60px" height="60px"></img><br></br>Brandt</a>
+                            <a className="navlinkk" > <img src="man.png" width="60px" height="60px"></img><br></br>Brandt</a>
                         </div>  
 
                         <div className="coach">
