@@ -8,6 +8,17 @@ import Accueil from "./components/Accueil/Accueil";
 import Coupe from "./components/Coupe/Coupe";
 import React from "react";
 import "./components/Sidebar/Sidebar.css"
+import InfoEuropa from "./components/InfoEuropa/InfoEuropa";
+import Bayern from "./components/Bayern/Bayern";
+import Dortmund from "./components/Dortmund/Dortmund";
+import Chelsea from "./components/Chelsea/Chelsea";
+import ManCity from "./components/ManCity/ManCity";
+import ManU from "./components/ManU/ManU";
+import Athletico from "./components/Athletico/Athletico";
+import Barca from "./components/Barca/Barca";
+import Real from "./components/Real/Real";
+import Lyon from "./components/Lyon/Lyon";
+import PSG from "./components/PSG/PSG";
 
 const player = [
   {
@@ -90,24 +101,21 @@ function App() {
 
                             <ul className="sousliste">
                                 <li className="Categories">Allemagne :</li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Bayern Munich</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Borussia Dortmund</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Bayern">Bayern Munich</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Dortmund">Borussia Dortmund</a></li>
                                 <li className="Categories">Angleterre :</li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Chelsea</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Chelsea">Chelsea</a></li>
                                 <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Liverpool</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Manchester City</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Manchester United</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/ManCity">Manchester City</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/ManU">Manchester United</a></li>
                                 <li className="Categories">Espagne :</li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Athlético Madrid</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">FC Barcelone</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Real Madrid</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Athletico">Athlético Madrid</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Barca">FC Barcelone</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Real">Real Madrid</a></li>
                                 <li className="Categories">France :</li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Olympique Lyonnais</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Paris Saint-Germain</a></li>
-                                <li className="Categories">Italie :</li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">A.C. Milan</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Inter Milan</a></li>
-                                <li className="ItemsSousListe"> <a className="nav-link" href="/Clubs">Juventus</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/Lyon">Olympique Lyonnais</a></li>
+                                <li className="ItemsSousListe"> <a className="nav-link" href="/PSG">Paris Saint-Germain</a></li>
+
 
 
 
@@ -164,8 +172,7 @@ function App() {
                             </div>
                             <ul className="sousliste">
                                 <li className="ItemsSousListe"><a className="nav-link" href="/coupe">C1</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/coupe">C2</a></li>
-                                <li className="ItemsSousListe"><a className="nav-link" href="/coupe">C3</a></li>
+                                <li className="ItemsSousListe"><a className="nav-link" href="/InfoEuropa">C3</a></li>
                             </ul>
                         </li>
 
@@ -181,10 +188,26 @@ function App() {
         <Routes>
         
         <Route exact path='/clubs' element={<Clubs/>} />
+        <Route exact path='/Bayern' element={<Bayern/>} />
+        <Route exact path='/Dortmund' element={<Dortmund/>} />
+        <Route exact path='/Chelsea' element={<Chelsea/>} />
+        <Route exact path='/ManCity' element={<ManCity/>} />
+        <Route exact path='/ManU' element={<ManU/>} />
+        <Route exact path='/Athletico' element={<Athletico/>} />
+        <Route exact path='/Barca' element={<Barca/>} />
+        <Route exact path='/Real' element={<Real/>} />
+        <Route exact path='/Lyon' element={<Lyon/>} />
+        <Route exact path='/PSG' element={<PSG/>} />
+        
+        
+        
+        
+
         <Route exact path='/Player/:id' element={<Home key={test}/>}/>
         
         <Route exact path='/' element={<Accueil/>} /> 
         <Route exact path='/coupe' element={<Coupe/>}/>
+        <Route exact path='/InfoEuropa' element={<InfoEuropa/>}/>
         </Routes>
       </div>
     </BrowserRouter>

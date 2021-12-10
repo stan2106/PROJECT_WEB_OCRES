@@ -156,31 +156,31 @@ export default class CallApiClub extends React.Component {
 
                 <div className="containerWidget">
                         <div className="widget2">
-                            <h2 className="titre"> {this.state.TeamName} in {this.state.info}</h2>
+                            <h2 className="titre"> {this.state.TeamName} en {this.state.info}</h2>
                             <br></br>
 
                             <div className="InfoTeamBoss">
 
                                 <div className="InfosTeam">
 
-                                    Number of games played : {this.state.NbdeMatches}<br></br> <br></br>
-                                    Number of games won : {this.state.Victoire}<br></br> <br></br>
-                                    Number of draw games  : {this.state.Nul}<br></br> <br></br>
-                                    Number of games loose  : {this.state.Défaite}<br></br> <br></br>
+                                    Nombre de matchs joués : {this.state.NbdeMatches}<br></br> <br></br>
+                                    Nombre de matchs gagnés : {this.state.Victoire}<br></br> <br></br>
+                                    Nombres de matchs nuls : {this.state.Nul}<br></br> <br></br>
+                                    Nombre de matchs perdus : {this.state.Défaite}<br></br> <br></br>
                                 </div> 
 
                                 <div className="InfosTeam">
 
                                     Points : {this.state.Points}<br></br> <br></br>
-                                    GoalsFor : {this.state.ButsPour}<br></br> <br></br>
-                                    GoalsAgainst : {this.state.ButsContre}<br></br> <br></br>
-                                    GoalDifference  : {this.state.Diff}
+                                    Buts pour : {this.state.ButsPour}<br></br> <br></br>
+                                    Buts contre : {this.state.ButsContre}<br></br> <br></br>
+                                    Différence  : {this.state.Diff}
 
                                 </div>
 
                             </div>
 
-                            <div className="position"> Position In PL  : {this.state.Position}nd</div>
+                            <div className="position"> Classement en PL : {this.state.Position}ème</div>
                                 
                                 
                                 
@@ -201,7 +201,7 @@ export default class CallApiClub extends React.Component {
         <div className="widget10">
             <h2 className="titre">{this.state.Stadium}</h2>
 
-            <div className="info_stade"> Address : {this.state.Address}</div>
+            <div className="info_stade"> Adresse : {this.state.Address}</div>
             <div className="info_stade">  WebSite :  <a href="https://www.liverpoolfc.com/">{this.state.WebSite}</a></div>
             <div className="info_stade">  Phone :  {this.state.Phone}</div>
             <div className="info_stade">  E-mail:  <a href="https://www.liverpool.com/contact-us/">{this.state.email}</a></div>
